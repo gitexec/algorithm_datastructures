@@ -1,0 +1,29 @@
+package algorithms_ds;
+import java.util.List;
+import java.util.ArrayList;
+
+public class CountSets {
+	public static void main(String[] args){
+		System.out.println(countSets("abc"));
+		
+	}
+	public static List<List<Character>> countSets(String word){
+		int length = word.length();
+		if(length == 0)
+			return null;
+		
+		List<List<Character>> result = new ArrayList<>();
+		for(int i = 0; i < 1 << length; i++){
+			List<Character> currentSet = new ArrayList<>();
+			for(int j = 0; j < length; j++){
+				if((i & (1 << j)) == 1)
+					currentSet.add(word.charAt(j));
+					
+			}
+			result.add(currentSet);
+		}
+		return result;
+		
+	}
+
+}

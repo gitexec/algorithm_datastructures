@@ -1,0 +1,18 @@
+INDEX VERSION 1.129+/home/wington/Downloads/software/java/algorithm_datastructures/.metadata/.plugins/org.eclipse.jdt.core
+3464012601.index
+3147035080.index
+1157421981.index
+792275370.index
+1590520130.index
+3987824968.index
+388373587.index
+2236645352.index
+2827755128.index
+3075553559.index
+3909167129.index
+2894051431.index
+779248198.index
+1596906084.index
+2178540399.index
+3340358847.index
+2297547444.index
